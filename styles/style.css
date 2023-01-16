@@ -30,7 +30,7 @@ nav ul {
     display: flex;
 }
 
-nav li{
+nav li {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
@@ -72,4 +72,32 @@ nav li{
 .header-img img {
     width: 1200px;
     padding: 0 20px 45px;
+}
+
+/* Responsive for mobile */
+
+@media screen and (max-width:576px) {
+    header {
+        width: 100%;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .header-intro,
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul,
+    nav ul li {
+        margin-top: 10px;
+    }
+
+    .header-img img {
+        width: 90%;
+        padding:25px;
+    }
 }
