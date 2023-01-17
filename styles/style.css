@@ -5,7 +5,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* header */
+/* header css */
 header {
     background: rgba(255, 144, 14, 0.1);
     width: 100%;
@@ -62,6 +62,7 @@ nav li {
 .btn-primary {
     background-color: #FF900E;
     border-radius: 8px;
+    border: none;
     width: 180px;
     height: 64px;
     font-weight: 600;
@@ -74,9 +75,50 @@ nav li {
     padding: 0 20px 45px;
 }
 
+/* main css */
+
+/* feature css */
+
+.features {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin: 80px 300px 120px;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-img img {
+    width: 300px;
+}
+
+#qlist {
+    font-weight: 500;
+    color: #727272;
+    font-size: 45px;
+}
+
+#ftr {
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 30px 0;
+}
+
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
+
+    /* Header Responsive */
     header {
         width: 100%;
     }
@@ -98,6 +140,6 @@ nav li {
 
     .header-img img {
         width: 90%;
-        padding:25px;
+        padding: 25px;
     }
 }
