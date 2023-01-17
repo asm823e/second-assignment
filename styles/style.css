@@ -224,7 +224,7 @@ nav li {
     }
 
     /* main feature responsive */
-    .features {
+    .features, .some-facts, .facts {
         flex-direction: column;
         margin: 20px;
     }
