@@ -142,4 +142,17 @@ nav li {
         width: 90%;
         padding: 25px;
     }
+    /* main feature responsive */
+    .features{
+        flex-direction: column;
+        margin: 20px 5px;
+    }
+
+    .feature-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .feature-info{
+        text-align: center;
+    }
 }
