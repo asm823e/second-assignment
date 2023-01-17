@@ -162,6 +162,38 @@ nav li {
     background-size: 120%;
 }
 
+/* some facts css */
+
+.some-facts {
+    margin: 0 240px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 35px;
+    margin: 70px 0 150px;
+}
+
+.fact-number {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 7px;
+}
+
+.fact-info {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
@@ -211,10 +243,11 @@ nav li {
         margin: 20px;
     }
 
-    .btn-feature{
+    .btn-feature {
         top: 400px;
         left: .5px;
     }
+
     .more-feature-extra {
         height: 550px;
         background-size: 100%;
