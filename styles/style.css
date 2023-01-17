@@ -194,7 +194,7 @@ nav li {
     /* main feature responsive */
     .features {
         flex-direction: column;
-        margin: 20px 5px;
+        margin: 20px;
     }
 
     .feature-img {
@@ -203,5 +203,20 @@ nav li {
 
     .feature-info {
         text-align: center;
+    }
+
+    /* main more-features responsive */
+    .more-features {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+    }
+
+    .btn-feature{
+        top: 400px;
+        left: .5px;
+    }
+    .more-feature-extra {
+        height: 550px;
+        background-size: 100%;
     }
 }
