@@ -267,4 +267,14 @@ nav li {
         height: 550px;
         background-size: 100%;
     }
+
+    /* sponsors css */
+    .sponsors{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .spnsr-img{
+        margin: 10px;
+    }
 }
