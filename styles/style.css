@@ -207,6 +207,21 @@ nav li {
     margin-bottom: 130px;
 }
 
+/* footer css */
+
+footer{
+    margin: 0 240px 200px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-text {
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 40px 280px;
+}
+
+
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
@@ -269,12 +284,15 @@ nav li {
     }
 
     /* sponsors css */
-    .sponsors{
+    .sponsors {
         margin: 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .spnsr-img{
-        margin: 10px;
+
+    .spnsr-img,
+    .sponsor-text,
+    .fact {
+        margin: 20px;
     }
 }
