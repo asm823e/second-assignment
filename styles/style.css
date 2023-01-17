@@ -114,6 +114,54 @@ nav li {
     margin: 30px 0;
 }
 
+/* main more-feature css */
+
+.more-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 130px 240px;
+    gap: 70px;
+}
+
+.rectitle {
+    display: flex;
+    gap: 20px;
+}
+
+.rectangular {
+    width: 5px;
+    height: 100px;
+    background-color: #FF900E;
+}
+
+.more-feature {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.btn-feature {
+    width: 250px;
+    height: 150px;
+    padding: 45px;
+    position: relative;
+    top: 850px;
+    right: 50px;
+}
+
+.more-feature-extra {
+    background-image: url(../images/architect.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
@@ -142,17 +190,18 @@ nav li {
         width: 90%;
         padding: 25px;
     }
+
     /* main feature responsive */
-    .features{
+    .features {
         flex-direction: column;
         margin: 20px 5px;
     }
 
-    .feature-img{
+    .feature-img {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .feature-info{
+    .feature-info {
         text-align: center;
     }
 }
