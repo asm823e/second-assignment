@@ -194,6 +194,19 @@ nav li {
     color: #727272;
 }
 
+/* sponsor css */
+
+.sponsor-text {
+    text-align: center;
+    margin: 50px;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+}
+
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
@@ -224,7 +237,9 @@ nav li {
     }
 
     /* main feature responsive */
-    .features, .some-facts, .facts {
+    .features,
+    .some-facts,
+    .facts {
         flex-direction: column;
         margin: 20px;
     }
