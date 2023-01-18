@@ -330,9 +330,13 @@ footer {
         margin: 20px;
     }
 
+    .spnsr-img{
+        width: 75%;
+    }
+
     /* footer responsive */
     footer {
-        margin: 30px 0;
+        margin: 30px;
     }
 
     .footer-text {
