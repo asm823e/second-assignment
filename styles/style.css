@@ -70,6 +70,11 @@ nav li {
     color: #FFFFFF;
 }
 
+.btn-primary:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
 .header-img img {
     width: 1200px;
     margin: 0 20px 45px;
@@ -181,7 +186,7 @@ nav li {
     margin: 70px 0 150px;
 }
 
-.fact:hover{
+.fact:hover {
     background-color: rgb(255, 251, 0);
     transform: scale(1.5);
     border: none;
@@ -228,7 +233,30 @@ footer {
     padding: 40px 280px;
 }
 
+/* extra section css */
 
+.extra{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.extra p{
+    margin: 20px;
+    color: #727272;
+}
+
+.extra-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.extra-img img{
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+}
 /* Responsive for mobile */
 
 @media screen and (max-width:576px) {
@@ -244,7 +272,7 @@ footer {
 
     .header-intro,
     nav ul {
-        flex-direction: column;     
+        flex-direction: column;
     }
 
     nav ul,
@@ -314,7 +342,7 @@ footer {
     }
 
     /* extra responsive */
-        .fact:hover {
-            transform: scale(1.2)
-        }
+    .fact:hover {
+        transform: scale(1.2)
+    }
 }
