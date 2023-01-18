@@ -72,7 +72,7 @@ nav li {
 
 .header-img img {
     width: 1200px;
-    padding: 0 20px 45px;
+    margin: 0 20px 45px;
 }
 
 /* main css */
@@ -181,6 +181,12 @@ nav li {
     margin: 70px 0 150px;
 }
 
+.fact:hover{
+    background-color: rgb(255, 251, 0);
+    transform: scale(1.5);
+    border: none;
+}
+
 .fact-number {
     font-weight: 600;
     font-size: 45px;
@@ -238,8 +244,7 @@ footer {
 
     .header-intro,
     nav ul {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column;     
     }
 
     nav ul,
@@ -249,7 +254,7 @@ footer {
 
     .header-img img {
         width: 90%;
-        padding: 25px;
+        padding-right: 15px;
     }
 
     /* main feature responsive */
@@ -307,4 +312,9 @@ footer {
         font-size: 10px;
         padding: 20px;
     }
+
+    /* extra responsive */
+        .fact:hover {
+            transform: scale(1.2)
+        }
 }
